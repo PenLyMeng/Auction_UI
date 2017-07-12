@@ -1,0 +1,524 @@
+
+/* ============= Global Section Style ================ */
+@font-face{
+	src: url(../fonts/DroidSerif-Italic.ttf);
+	font-family: 'Droid Serif';
+}
+@font-face{
+	src: url(../fonts/Montserrat-Bold.ttf);
+	font-family: 'Montserrat';
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Verdana';
+	background: url("../images/gray_jean.png") repeat;
+}
+
+
+/* ============ Header Section Style ================ */
+header{
+	margin: 0 auto;
+	margin-top: 10px;
+	line-height: 40px;
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+/* ============ Override row class Style ================ */
+.row{
+ margin: 0px 0px;
+}
+/* ============ HR Section Style ================ */
+hr {
+	border-top: 1px solid #ccc;
+}
+/* ============ Override container-fluid class Style ================ */
+.container-fluid{
+	padding: 0px;
+}
+/* ============ Service Section Style ================ */
+.service{
+	font-family: 'Montserrat', sans-serif;
+	text-align: right;
+	margin-top: 10px;
+}
+
+/* ============ Class Service on tag p Section Style ================ */
+.service p{
+	font-size: 1.4em !important;
+	color: #286090;
+}
+/* ============ Class Service on tag a Section Style ================ */
+.service a{
+	text-decoration: none;
+	font-size: 1vmax;
+	margin-left: 20px;
+	color: #286090;
+}
+/* ============ Class Service on tag a psdoue 
+class Section Style ================ */
+.service a:hover,.service a:active,.service a:link {
+	text-decoration: none;
+	color: #606060;
+	transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+/* ============ override navbar Menu Section Style ================ */
+#menu .navbar{
+	border-radius: 0px;
+	border: none;
+	margin-bottom: 5px;
+}
+/* ============ override class navbar-default 
+Menu Section Style ================ */
+#menu .navbar-default{
+	background-color: #3797bc;	
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,.5);
+}
+/* ============ override class navbar-default 
+Menu Section Style ================ */
+#menu .navbar-nav>li>a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3vmax !important;
+	border-right: 1px solid #ffffff;
+	padding: 25px;
+}
+/* ============ override li>a in class navbar-nav 
+Section Style ================ */
+#menu .navbar-default .navbar-nav>li>a{
+	color: #ffffff;
+	text-align: center;
+}
+/* ============ override a psdueo class in class navbar-nav 
+Section Style ================ */
+#menu .navbar-default .navbar-nav>.active>a, 
+#menu .navbar-default .navbar-nav>.active>a:focus, 
+#menu .navbar-default .navbar-nav>.active>a:hover,
+#menu .navbar-default .navbar-nav>li>a:hover {
+	color: #ffffff;
+	background-color: #2d2d2d;
+	border-bottom: 3px solid #ffffff;
+	transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+/* ============ override class navbar-right 
+Section Style ================ */
+#menu .navbar-right{
+	margin-top: 15px;
+}
+/* ============ override class navbar-collapse 
+Section Style ================ */
+#menu .navbar-collapse{
+	padding-right: 0px;
+    padding-left: 0px;
+}
+/* ============ Dropdown menu Section Style ================ */
+#menu .dropdown-menu{
+	background-color: #2d2d2d;
+}
+/* ============ override li>a in class dropdown-menus 
+Section Style ================ */
+#menu .dropdown-menu>li>a{
+	color: #ffffff;
+	font-family: "Montserrat";
+	font-size: 1.1em;
+	padding: 5px 20px;
+}
+/* ============ override li>a hover in class dropdown-menus 
+Section Style ================ */
+#menu .dropdown-menu>li>a:hover{
+	background-color: #286090;
+	color: #ffffff;
+}
+/* ============ override li>a hover and focus in class 
+navbar-nav on class open Section Style ================ */
+#menu .navbar-default .navbar-nav>.open>a, 
+#menu .navbar-default .navbar-nav>.open>a:focus, 
+#menu .navbar-default .navbar-nav>.open>a:hover{
+	background-color: #2d2d2d;
+}
+/* ============ Slideshow Section Style ================ */
+.slideshow .carousel-control.right,.slideshow .carousel-control.left {
+    background-image: none;
+}
+/* ============ Override Slideshow on carousel-caption 
+class Section Style ================ */
+.slideshow .carousel-caption {
+    left: 60%;
+    top: 30% !important;
+    width: 400px;
+    background-color: #2d2d2d;
+    opacity: 0.8;
+    bottom:110px;
+    font-size: 20px;
+}
+/* ============ Override Slideshow on tag p in carousel-caption 
+class Section Style ================ */
+.slideshow .carousel-caption p{
+	text-align: justify;
+	padding: 0px 15px;
+	color: #ffffff;
+}
+/* ============ Override Slideshow on  
+class btn-default Section Style ================ */
+.slideshow .btn-default {
+    color: #ffffff;
+    background-color: #2d2d2d;
+    opacity: 1px;
+    border-color: #ccc;
+    margin-bottom: 0px;
+}
+/* ============ Override Slideshow on imgage in carousel-inner 
+class Section Style ================ */
+.slideshow .carousel-inner > .item > img,
+.slideshow .carousel-inner > .item > a > img {
+    margin: auto;
+}
+/* ============ Content Section Style ================ */
+.thumbnail{
+	box-shadow: 0px 0px 5px 1px #ddd;
+	padding-bottom: 15px;
+	line-height: 1.4;
+}
+/* ============ Tag p in class caption Section Style ================ */
+.caption p{
+	font-size: 14px;
+	color: #286090;
+	font-weight: bold;
+}
+/* ============ Override Class caption in class 
+thumbnail Section Style ================ */
+.thumbnail .caption{
+	line-height: 25px;
+}
+/* ============ Override class btn-primary in Class 
+descript Section Style ================ */
+.descript .btn-primary{
+	background-color: #286090;
+	position: relative;
+	bottom: -20px;
+	color: #ffffff;
+}
+/* ============  Style Class bid in class caption Section ================ */
+.descript .bid{
+	position: relative;
+	left: 25px;
+}
+/* ============  Style Class title Section ================ */
+.title{
+	font-size: 15px;
+	color: #2d2d2d;
+}
+
+/* ============  Style id title in h2 Section ================ */
+h2#title{
+	margin-left: 20px;
+}
+/* ============  Style Class price in tag span Section ================ */
+span.price{
+	position: relative;
+    right: 5px;
+}
+/* ============ Categories Section Style ================ */
+.categories{
+	margin-top: 72px; 
+    box-shadow: 0px 0px 5px 1px #ddd;
+}/* ============  Override Style Class list-group-item Section ================ */
+
+/* ============  Override Style a in class categories Section ================ */
+.categories a{
+	color: #2d2d2d;
+}
+/* ============  Override Style a:hover in class categories Section ================ */
+.categories a:hover{
+	color: #286090;
+}
+/* ============ Footer Section Style ================ */
+footer{
+	background-color: #f2f2f2;
+	margin-bottom: 0;
+	padding: 15px 0px;
+	overflow: hidden;
+	box-shadow: 0px 0px 5px 1px #ddd;
+}
+/* ============ Override li>a Footer Section Style ================ */
+footer .navbar-nav>li>a{
+	font-family: 'Montserrat', sans-serif;
+	border: none;
+	padding: 25px 15px;
+	text-align: center;
+	font-size: 0.90vmax;
+	margin-top: 35px;
+	color: #2d2d2d;
+}
+/* ============ Override li>a on hover Footer Section Style ================ */
+footer .navbar-nav>li>a:hover{
+	color: #1a67a5;
+	background-color: #f2f2f2;
+}
+/* ============ Footer for paragraph Section Style ================ */
+footer p{
+	font-size: small;
+    line-height: 45px;
+}
+/* ============ Override Font Awsome Footer Section Style ================ */
+footer .fa-2x {
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+/* ============ Override Font Awsome Footer Section Style ================ */
+footer .fa:hover{
+	color: #1a67a5 !important;
+	transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+/* =========== Style Content Page detail  ============== */
+#detail .list-group,#detail .panel-body{
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+}
+#detail .list-group > .list-group-item > p{
+	font-weight: normal;
+}
+#detail .list-group > .list-group-item > p > span{
+	font-weight: bold;
+}
+#detail td{
+	font-weight: normal;
+}
+
+/* ============= Style Content Page Register ============== */
+#register .list-group,#register .panel-body{
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+}
+#register .list-group > .list-group-item > p{
+	font-weight: normal;
+}
+#register .form-group p{
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: normal;
+	padding-top: 5px;
+}
+#register .glyphicon-star{
+	color: red;
+	font-size: 8px;
+}
+#register small{
+	color: gray;
+}
+
+/* ============== Style Content Pang login ================= */
+#login .list-group, #login .panel-body{
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+}
+#login .list-group > .list-group-item > p{
+	font-weight: normal;
+}
+#login p{
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: normal;
+	padding-top: 5px;
+}
+#login .glyphicon-star{
+	color: red;
+	font-size: 8px;
+}
+#login small{
+	color: gray;
+}
+.content{
+	margin-top: 20px;
+}
+
+
+
+/* 
+* STYLE CSS BACK END INDEX,DETAIL,ITEMLIST, PAGES
+* LOOK FOR EACH JSP FILE STYLE COMMENTS
+* OVERWRITE SOME CONTANT
+*/
+
+/*============================= INDEX JSP ==============================*/
+.panle1 .panel-group .panel+.panel,.panle1 .panel{
+	margin-top: 0px;
+}
+
+#title {
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: gray;
+	margin-top: 12px;
+}
+
+/*======================== MENU JSP ========================*/
+header{
+	padding:0px;
+	margin:0px;
+}
+header .head{
+	background-color: #e6e6e6;
+}
+header span{
+	font-family: verdana;
+ 	font-size: 12px;
+}
+header #right-head-info{
+	text-align: right;
+}
+header .menu{
+	background-color: #fff;
+}
+header .menu img{
+	width: 350px;
+	padding: 25px;
+}
+header .menu-list-ul{
+	list-style-type: none;
+	margin-top: 10px;
+	padding:0px;
+}
+header .menu-list-ul .menu-list-li,
+header .menu-list-ul .menu-list-li > a{
+	display: inline;
+	padding: 5px;
+	margin-left:5px;
+	line-height: 90px;
+	color: gray;
+}
+header .menu-list-ul .menu-list-li > a > span{
+	font-size: 0.90vmax;
+	font-size: 13px;
+}
+header .menu-list-ul .menu-list-li a:hover{
+	text-decoration: none;
+}
+.panel-default{
+	border-bottom:1px solid white;
+	background-color: #fff;
+	padding:0;
+}
+.fa-caret-square-o-down:hover{
+	color: black;
+	cursor: pointer;
+}
+
+#menustand a{
+	text-decoration: none;
+	transition: 0.3s ease-in-out;
+}
+#menustand .submenu:hover{
+	padding-left: 10px;
+	transition: 0.3s ease-in-out;
+}
+
+#registerLoginLink{
+	font-style: italic; 
+	color: gray;
+	font-family: Montserrat; 
+}
+#registerLoginLink:hover {
+	text-decoration: underline;
+}
+
+/*======================== DETAIL JSP ========================*/
+.sublinkcategory{
+	color: gray;
+	font-size: 12px;
+}
+#status1 p{
+ 	padding: 1px 5px;
+ 	margin: 0;
+	float: right;
+	background-color: #339bd1;
+	color: white;
+	font-weight: bold;
+	border-radius: 3px;
+}
+#status2 p{
+ 	padding: 1px 5px;
+ 	margin: 0;
+	float: right;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	border-radius: 3px;
+}
+.bidhistory{
+	font-size: 11px;
+	float: right;
+}
+
+/*========================= ITEMLIST JSP =======================*/
+.NumberPart{
+	color: green;
+	font-weight: bold;
+}
+/*.remaining{
+	color: #777574;
+	font-weight: bold;
+}*/
+.glyphicon-option-vertical{
+	color: #777574;
+}
+.title strong{
+	color: #777574;
+	font-size: larger;
+}
+.subtitle strong{
+	color: #777574;
+	font-size: medium;
+	font-weight:normal;
+
+}
+.img-wraper{
+	margin-top: -15px; margin-bottom: 5px;
+}
+.img{float: left; margin-right: 10px; }
+.condition, .seller, .remaining{
+	color: #BBBAB9;
+}
+.seller a, .condition a{
+	color: #999795;
+}
+.condition a:hover, a:visited, a:link, a:active
+{
+	text-decoration: none;
+}
+
+.seller a:hover, a:visited, a:link, a:active
+{
+	text-decoration: none;
+}
+.remaining a:hover, a:visited, a:link, a:active
+{
+	text-decoration: none;
+}
+.status-type{
+	background-color: #BBBAB9;
+}
+.control-label{
+	color: #999795;
+}
+.filter{
+	
+}
+
+
+
+
+
+
+
+
